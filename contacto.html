@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>CONTACTO</title>
+  </head>
+  <body>
+    <header class="m-4">
+      <nav class="container">
+        <div class="row">
+          <ul class="nav justify-content-end align-items-center">
+            <li class="nav-item">
+              <a style="max-width: 25%" class="nav-link" href="index.html">
+                <img
+                  src="/IMAGENES/logo.svg"
+                  alt="logo fitness life"
+                  class="img-fluid"
+                />
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="/index.html">INICIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="/entrenamiento.html"
+                >ENTRENAIMENTO</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="/recetas.html">RECETAS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="/sobre mi.html">SOBRE MI</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="/contacto.html">CONTACTO</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="container">
+      <h1 class="text-center">CONTACTO</h1>
+      <div class="row">
+        <label for="nombre">NOMBRE</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre" />
+        <label for="apellido">APELLIDO</label>
+        <input
+          type="text"
+          name="apellido"
+          id="apellido"
+          placeholder="Apellido"
+        />
+        <div class="form-check">
+          <p>SEXO</p>
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault1"
+          />
+          <label class="form-check-label" for="flexRadioDefault1">
+            Hombre
+          </label>
+        </div>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="flexRadioDefault"
+            id="flexRadioDefault2"
+            checked
+          />
+          <label class="form-check-label" for="flexRadioDefault2">
+            Mujer
+          </label>
+        </div>
+        <select class="form-select" aria-label="Default select example">
+          <option selected>COMO LLEGASTE A MI WEB</option>
+          <option value="1">Te vi en Instagram</option>
+          <option value="2">Te vi en Facebook</option>
+          <option value="3">Te vi en Tiktok</option>
+          <option value="3">Te vi en una pubicidad</option>
+          <option value="3">Por una amiga</option>
+        </select>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label"
+            >Dejame tu mensaje</label
+          >
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+          ></textarea>
+        </div>
+        <div>
+          <input class="btn btn-primary" type="submit" value="Enviar" />
+          <input class="btn btn-primary" type="reset" value="Limpiar" />
+        </div>
+      </div>
+    </main>
+    <footer class="bg-secondary text-white">
+      <div class="container fluid">
+        <div class="row text-center">
+          <p>Seguime en las redes</p>
+          <ul>
+            <li>
+              <a
+                href="https://www.facebook.com/mili.zacarias/"
+                class="text-reset"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/mili.zacarias/"
+                class="text-reset"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.tiktok.com/@mariamilagroszaca"
+                class="text-reset"
+                ><i class="fa-brands fa-tiktok"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
